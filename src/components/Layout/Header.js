@@ -2,7 +2,7 @@ import React from 'react'
 import  './Header.css'
 import mealsimg from '../Assest/meals.jpg'
 import HeaderCart from './HeaderCart'
-import MealsSummary from '../Meals/MealsSummary'
+import MealsItem from '../Meals/MealsItem'
 
 const Header = () => {
   return (
@@ -15,7 +15,8 @@ const Header = () => {
       <div className='main-image' >
         <img src={mealsimg} alt='food image'></img>
       </div>
-      <MealsSummary />
+      
+      <MealsItem/>
     </>
   )
 }
