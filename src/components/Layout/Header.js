@@ -4,12 +4,12 @@ import mealsimg from '../Assest/meals.jpg'
 import HeaderCart from './HeaderCart'
 import MealsItem from '../Meals/MealsItem'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <>
       <div className='header'>
         <h2>ReactMeals</h2>
-        <HeaderCart/>
+        <HeaderCart onClick={props.onShowCart}/>
       </div>
 
       <div className='main-image' >
