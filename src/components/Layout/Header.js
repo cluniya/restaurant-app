@@ -1,7 +1,8 @@
 import React from 'react'
 import  './Header.css'
-import mealsimg from './meals.jpg'
+import mealsimg from '../Assest/meals.jpg'
 import HeaderCart from './HeaderCart'
+import MealsSummary from '../Meals/MealsSummary'
 
 const Header = () => {
   return (
@@ -11,9 +12,10 @@ const Header = () => {
         <HeaderCart/>
       </div>
 
-      <div className='main-image'>
-        <img src={mealsimg}></img>
+      <div className='main-image' >
+        <img src={mealsimg} alt='food image'></img>
       </div>
+      <MealsSummary />
     </>
   )
 }
