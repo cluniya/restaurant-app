@@ -1,10 +1,8 @@
 import React from 'react'
 import  classes from './Header.module.css'
-// import classes 
-import mealsimg from '../Assest/meals.jpg'
 import HeaderCart from './HeaderCart'
 import MealsItem from '../Meals/MealsItem'
-
+import mealsimg from '../../Assest/meals.jpg'
 const Header = (props) => {
   return (
     <>
